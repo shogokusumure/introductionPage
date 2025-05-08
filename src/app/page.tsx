@@ -8,8 +8,6 @@ export default function Home() {
       {/* Header */}
       <header className="w-full max-w-md flex flex-col items-center gap-2 mb-8">
         <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-gray-200 mb-2">
-          {/* TODO: お試しでpathを指定してみる */}
-          {/* <Image src="/figma/icon.png" alt="icon" width={80} height={80} /> */}
           <Image src={`${BASE_PATH}/figma/icon.png`} alt="icon" width={80} height={80} />
           
         </div>
