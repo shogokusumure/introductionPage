@@ -1,4 +1,6 @@
 import Image from "next/image";
+import nextConfig from "../../next.config";
+const BASE_PATH = nextConfig.basePath || "";
 
 export default function Home() {
   return (
@@ -6,7 +8,10 @@ export default function Home() {
       {/* Header */}
       <header className="w-full max-w-md flex flex-col items-center gap-2 mb-8">
         <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-gray-200 mb-2">
-          <Image src="/figma/icon.png" alt="icon" width={80} height={80} />
+          {/* TODO: お試しでpathを指定してみる */}
+          {/* <Image src="/figma/icon.png" alt="icon" width={80} height={80} /> */}
+          <Image src={`${BASE_PATH}/figma/icon.png`} alt="icon" width={80} height={80} />
+          
         </div>
         <div className="bg-white px-6 py-2 rounded-lg shadow-sm">
           <h1 className="text-2xl font-bold text-gray-900">Shogo Kusumure</h1>
