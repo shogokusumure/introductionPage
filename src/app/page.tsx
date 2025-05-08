@@ -18,13 +18,13 @@ export default function Home() {
         </div>
         <div className="flex gap-4 mt-2">
           <a href="https://github.com/shogokusumure" target="_blank" rel="noopener noreferrer">
-            <Image src="/figma/github.png" alt="GitHub" width={32} height={32} />
+            <Image src={`${BASE_PATH}/figma/github.png`} alt="GitHub" width={32} height={32} />
           </a>
           <a href="https://www.instagram.com/shogo9360?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
-            <Image src="/figma/instagram.png" alt="Instagram" width={32} height={32} />
+            <Image src={`${BASE_PATH}/figma/instagram.png`} alt="Instagram" width={32} height={32} />
           </a>
           <a href="https://x.com/shogokusumure" target="_blank" rel="noopener noreferrer">
-            <Image src="/figma/x.png" alt="X" width={32} height={32} />
+            <Image src={`${BASE_PATH}/figma/x.png`} alt="X" width={32} height={32} />
           </a>
         </div>
       </header>
@@ -33,7 +33,7 @@ export default function Home() {
       <section className="w-full max-w-md bg-gray-50 rounded-xl shadow p-6 mb-8">
         <div className="flex items-center gap-4 mb-4 bg-white p-3 rounded-lg shadow-sm">
           <div className="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 ring-2 ring-gray-200">
-            <Image src="/figma/miyazaki.png" alt="Miyazaki" width={64} height={64} className="object-cover" />
+            <Image src={`${BASE_PATH}/figma/miyazaki.png`} alt="Miyazaki" width={64} height={64} className="object-cover" />
           </div>
           <h2 className="text-xl font-bold text-gray-900">Miyazaki</h2>
         </div>
@@ -42,10 +42,10 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-2 gap-4">
           <div className="aspect-square rounded-lg overflow-hidden">
-            <Image src="/figma/img_2926.png" alt="Miyazaki" width={160} height={160} className="object-cover w-full h-full" />
+            <Image src={`${BASE_PATH}/figma/img_2926.png`} alt="Miyazaki" width={160} height={160} className="object-cover w-full h-full" />
           </div>
           <div className="aspect-square rounded-lg overflow-hidden">
-            <Image src="/figma/img_5276.png" alt="Miyazaki Nature" width={160} height={160} className="object-cover w-full h-full" />
+            <Image src={`${BASE_PATH}/figma/img_5276.png`} alt="Miyazaki Nature" width={160} height={160} className="object-cover w-full h-full" />
           </div>
         </div>
       </section>
@@ -54,7 +54,7 @@ export default function Home() {
       <section className="w-full max-w-md bg-gray-50 rounded-xl shadow p-6 mb-8">
         <div className="flex items-center gap-4 mb-4 bg-white p-3 rounded-lg shadow-sm">
           <div className="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 ring-2 ring-gray-200">
-            <Image src="/figma/fukuoka.png" alt="Fukuoka" width={64} height={64} className="object-cover" />
+            <Image src={`${BASE_PATH}/figma/fukuoka.png`} alt="Fukuoka" width={64} height={64} className="object-cover" />
           </div>
           <h2 className="text-xl font-bold text-gray-900">Fukuoka</h2>
         </div>
@@ -65,10 +65,10 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-2 gap-4">
           <div className="aspect-square rounded-lg overflow-hidden">
-            <Image src="/figma/dsc_0104.png" alt="Malaysia Conference" width={160} height={160} className="object-cover w-full h-full" />
+            <Image src={`${BASE_PATH}/figma/dsc_0104.png`} alt="Malaysia Conference" width={160} height={160} className="object-cover w-full h-full" />
           </div>
           <div className="aspect-square rounded-lg overflow-hidden">
-            <Image src="/figma/img_20180107.png" alt="Malaysia Conference 2" width={160} height={160} className="object-cover w-full h-full" />
+            <Image src={`${BASE_PATH}/figma/img_20180107.png`} alt="Malaysia Conference 2" width={160} height={160} className="object-cover w-full h-full" />
           </div>
         </div>
       </section>
@@ -77,7 +77,7 @@ export default function Home() {
       <section className="w-full max-w-md bg-gray-50 rounded-xl shadow p-6 mb-8">
         <div className="flex items-center gap-4 mb-4 bg-white p-3 rounded-lg shadow-sm">
           <div className="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 ring-2 ring-gray-200">
-            <Image src="/figma/tokyo.png" alt="Tokyo" width={64} height={64} className="object-cover" />
+            <Image src={`${BASE_PATH}/figma/tokyo.png`} alt="Tokyo" width={64} height={64} className="object-cover" />
           </div>
           <h2 className="text-xl font-bold text-gray-900">Tokyo</h2>
         </div>
@@ -87,10 +87,10 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-2 gap-4">
           <div className="aspect-square rounded-lg overflow-hidden">
-            <Image src="/figma/img_5670.png" alt="Tokyo Life 1" width={160} height={160} className="object-cover w-full h-full" />
+            <Image src={`${BASE_PATH}/figma/img_5670.png`} alt="Tokyo Life 1" width={160} height={160} className="object-cover w-full h-full" />
           </div>
           <div className="aspect-square rounded-lg overflow-hidden">
-            <Image src="/figma/img_6328.png" alt="Tokyo Life 2" width={160} height={160} className="object-cover w-full h-full" />
+            <Image src={`${BASE_PATH}/figma/img_6328.png`} alt="Tokyo Life 2" width={160} height={160} className="object-cover w-full h-full" />
           </div>
         </div>
       </section>
